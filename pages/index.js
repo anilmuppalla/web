@@ -22,6 +22,7 @@ function Home(props) {
               <a
                 className="underline text-blue-600 text-lg"
                 target="_blank"
+                rel="noopener"
                 href="https://twitter.com/anilmuppallar"
               >
                 twitter
@@ -29,6 +30,7 @@ function Home(props) {
               <a
                 className="underline text-purple-600 text-lg"
                 target="_blank"
+                rel="noopener"
                 href="https://www.linkedin.com/in/anilmuppalla/"
               >
                 linkedin
@@ -36,6 +38,7 @@ function Home(props) {
               <a
                 className="underline text-red-600 text-lg"
                 target="_blank"
+                rel="noopener"
                 href="https://github.com/anilmuppalla"
               >
                 github
@@ -56,6 +59,8 @@ function Home(props) {
               Hello there 👋 ! My name is Anil and I am a Senior Engineer at
               <a
                 className="text-green-600 font-bold no-underline hover:underline"
+                rel="noopener"
+                target="_blank"
                 href="https://spotify.com/us"
               >
                 {" "}
@@ -119,6 +124,7 @@ function Home(props) {
               <a
                 className="text-blue-500 text-2xl hover:underline"
                 target="_blank"
+                rel="noopener"
                 href="https://www.infoq.com/presentations/evolution-spotify-arch/"
               >
                 Watch
