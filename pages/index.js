@@ -102,12 +102,13 @@ function Home(props) {
       <div className="mt-4">
         <div className={showPage === "speaker" ? "block" : "hidden"}>
           <img
+            className="w-auto h-auto"
             src="/img/qcon-ai-presentation.jpg"
             alt="Evolution of Spotify Home"
           />
           <div className="flex justify-between items-center">
             <a
-              className=" text-blue-500 text-2xl hover:underline"
+              className="text-blue-500 text-2xl hover:underline"
               target="_blank"
               href="https://www.infoq.com/presentations/evolution-spotify-arch/"
             >
