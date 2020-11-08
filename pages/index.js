@@ -15,7 +15,7 @@ function Home(props) {
         />
       </head>
       <body>
-        <div className="p-4 mx-auto max-w-screen-md">
+        <div className="p-2 mx-auto max-w-screen-md">
           <Hero />
           <div className="mt-4 space-x-4">
             <button
