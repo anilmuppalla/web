@@ -38,7 +38,7 @@ function Home(props) {
         <div>
           <img
             className="w-56 h-56 rounded-full object-cover object-right-bottom"
-            src="/img/anil.jpg"
+            src="/img/anil_2.jpg"
             alt="anil muppalla"
           />
         </div>
