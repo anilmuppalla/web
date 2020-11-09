@@ -16,7 +16,7 @@ function Home(props) {
         />
       </head>
       <body>
-        <div className="p-4 lg:p-0 mx-auto max-w-screen-md items-center">
+        <div className="pl-4 pr-4 pt-6 pb-6 lg:p-0 mx-auto max-w-screen-md items-center">
           <Hero />
           <div className="mt-4 space-x-4">
             <button
