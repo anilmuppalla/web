@@ -9,4 +9,4 @@ hosted on:
 
 - [vercel](https://vercel.com/)
 
-check it out [anilmuppalla.me](https://anilmuppalla.com/)
+check it out [anilmuppalla.com](https://anilmuppalla.com/)
