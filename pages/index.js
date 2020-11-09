@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Hero from "./components/hero";
+import Speaker from "./components/speaker";
 function Home(props) {
   const [showPage, setPage] = useState(props.showPage);
 
@@ -15,7 +16,7 @@ function Home(props) {
         />
       </head>
       <body>
-        <div className="p-2 mx-auto max-w-screen-md">
+        <div className="p-4 lg:p-0 mx-auto max-w-screen-md items-center">
           <Hero />
           <div className="mt-4 space-x-4">
             <button
@@ -24,7 +25,7 @@ function Home(props) {
                 showPage === "speaker"
                   ? "bg-teal-400 text-white border-transparent focus:outline-none"
                   : " hover:bg-teal-400 text-blue-700 hover:text-white bg-transparent hover:border-transparent focus:outline-none border-blue-500"
-              }   font-semibold  py-2 px-4 border rounded-full`}
+              }   font-semibold  py-1 px-4 border rounded-full`}
             >
               Speaker
             </button>
@@ -34,7 +35,7 @@ function Home(props) {
                 showPage === "blog"
                   ? "bg-teal-400 text-white border-transparent active:outline-none focus:outline-none"
                   : " hover:bg-teal-400 text-blue-700 hover:text-white bg-transparent hover:border-transparent focus:outline-none border-blue-500"
-              }   font-semibold  py-2 px-4 border rounded-full`}
+              }   font-semibold  py-1 px-4 border rounded-full`}
             >
               Blog
             </button>
@@ -44,33 +45,14 @@ function Home(props) {
                 showPage === "book"
                   ? "bg-teal-400 text-white border-transparent focus:outline-none"
                   : " hover:bg-teal-400 text-blue-700 hover:text-white bg-transparent hover:border-transparent focus:outline-none border-blue-500"
-              }   font-semibold  py-2 px-4 border rounded-full`}
+              }   font-semibold py-1 px-4 border rounded-full`}
             >
               Book
             </button>
           </div>
           <div className="mt-4">
             <div className={showPage === "speaker" ? "block" : "hidden"}>
-              <img
-                className="w-auto h-auto"
-                src="/img/qcon-ai-presentation.jpg"
-                alt="Evolution of Spotify Home"
-              />
-              <div className="flex justify-between items-center">
-                <a
-                  className="text-blue-500 text-2xl hover:underline"
-                  target="_blank"
-                  rel="noopener"
-                  href="https://www.infoq.com/presentations/evolution-spotify-arch/"
-                >
-                  Watch
-                </a>
-                <img
-                  className="mt-2 w-1/6 h-1/6"
-                  src="/img/qcon-ai-logo.svg"
-                  alt="Qcon"
-                />
-              </div>
+              <Speaker />
             </div>
             <div className={showPage === "blog" ? "block" : "hidden"}>
               Blog notes

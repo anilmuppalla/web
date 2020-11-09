@@ -1,13 +1,26 @@
 function Hero(props) {
   return (
     <div>
-      <div className="flex space-x-48 justify-between items-center">
+      <div>
+        <div className="md:flex md:justify-between md:items-center">
+          <div>
+            <div className="font-mono text-5xl text-gray-800 text-center md:text-left">
+              Anil Muppalla
+            </div>
+            <div className="font-mono text-2xl text-gray-600 text-center md:text-left">
+              Software Engineer in New York
+            </div>
+          </div>
+          <div className="flex justify-center">
+            <img
+              className="w-56 h-56 rounded-full object-cover object-right-bottom"
+              src="/img/anil_2.jpg"
+              alt="anil muppalla"
+            />
+          </div>
+        </div>
         <div>
-          <h1 className="font-mono text-5xl text-gray-800">Anil Muppalla</h1>
-          <h1 className="font-mono text-2xl text-gray-600">
-            Software Engineer in New York
-          </h1>
-          <div className="mt-8 space-x-4">
+          <div className="mt-2 space-x-4 flex justify-center md:justify-start">
             <a
               className="underline text-blue-600 text-lg"
               target="_blank"
@@ -34,13 +47,6 @@ function Hero(props) {
             </a>
           </div>
         </div>
-        <div>
-          <img
-            className="w-56 h-56 rounded-full object-cover object-right-bottom"
-            src="/img/anil_2.jpg"
-            alt="anil muppalla"
-          />
-        </div>
       </div>
       <div className="mt-6">
         <div className="text-lg">
@@ -65,7 +71,7 @@ function Hero(props) {
             spend a significant portion of my free time exploring them.
           </p>
           <p className="mt-4">
-            if you want to connect/chat drop me a message{" "}
+            if you want to chat drop me a message{" "}
             <a
               className="text-blue-600 text-lg"
               target="_blank"
