@@ -13,9 +13,10 @@ function Speaker(props) {
             alt="Evolution of Spotify Home"
           />
           <div className="border-gray-100 m-2 md:mt-0">
-            <div class="font-bold text-gray-800 text-xl">
+            <div className="font-bold text-gray-800 text-xl">
               The Evolution of Spotify Home Architecture
             </div>
+            <p className="text-sm text-gray-600">Jun 18</p>
             <div className="text-base mt-2">
               Learn more about how we evolved our systems over time to serve
               recommendations to millions of users and what we learned along the
