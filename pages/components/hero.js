@@ -14,7 +14,7 @@ function Hero(props) {
           <div className="flex justify-center">
             <img
               className="w-56 h-56 rounded-full object-cover object-right-bottom"
-              src="/img/anil_2.jpg"
+              src="/img/anil.jpg"
               alt="anil muppalla"
             />
           </div>
