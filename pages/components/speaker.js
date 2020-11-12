@@ -1,48 +1,35 @@
+import Post from "./post";
 function Speaker(props) {
+  const contents = [
+    {
+      key: "How Spotify Built Shortcuts in Just Six Months",
+      title: "How Spotify Built Shortcuts in Just Six Months",
+      imageUrl: "/img/shortcuts.png",
+      imageAlt: "Spotify Home Shortcuts",
+      tag: "highlights",
+      date: "Apr 15, 2020",
+      summary:
+        "Learn more about the methodology behind one of Spotify's most exciting features",
+      outLink:
+        "https://engineering.atspotify.com/2020/04/15/reach-for-the-top-how-spotify-built-shortcuts-in-just-six-months/",
+    },
+    {
+      key: "The Evolution of Spotify Home Architecture",
+      title: "The Evolution of Spotify Home Architecture",
+      imageUrl: "/img/evolution-spotify-home.jpg",
+      imageAlt: "Evolution of Spotify Home",
+      tag: "highlights",
+      date: "Jun 18, 2019",
+      summary:
+        "Learn more about how our infrastructure power Spotify Home evolved over time as we served millions of users. This was presented at QCon.AI",
+      outLink: "https://www.infoq.com/presentations/evolution-spotify-arch/",
+    },
+  ];
   return (
-    <div className="">
-      <a
-        target="_blank"
-        rel="noopener"
-        href="https://engineering.atspotify.com/2020/04/15/reach-for-the-top-how-spotify-built-shortcuts-in-just-six-months/"
-      >
-        <div className="mb-4 rounded overflow-hidden md:flex">
-          <div className="md:w-1/3">
-            <img
-              className="object-cover"
-              src="/img/shortcuts.png"
-              alt="Spotify Home Shortcuts"
-            />
-          </div>
-          <div className="md:w-2/3 border-gray-100 m-2">
-            <div className="font-bold text-gray-800 text-xl">
-              How Spotify Built Shortcuts in Just Six Months
-            </div>
-            <p className="text-sm text-gray-600">Apr 15, 2020</p>
-          </div>
-        </div>
-      </a>
-      <a
-        target="_blank"
-        rel="noopener"
-        href="https://www.infoq.com/presentations/evolution-spotify-arch/"
-      >
-        <div className="mb-4 rounded overflow-hidden md:flex">
-          <div className="md:w-1/3">
-            <img
-              className="object-cover"
-              src="/img/evolution-spotify-home.jpg"
-              alt="Evolution of Spotify Home"
-            />
-          </div>
-          <div className="md:w-2/3 border-gray-100 m-2">
-            <div className="font-bold text-gray-800 text-xl">
-              The Evolution of Spotify Home Architecture
-            </div>
-            <p className="text-sm text-gray-600">Jun 18, 2019</p>
-          </div>
-        </div>
-      </a>
+    <div className="mb-4 grid grid-cols-1 gap-4">
+      {contents.map((content) => (
+        <Post {...content} />
+      ))}
     </div>
   );
 }

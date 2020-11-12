@@ -58,12 +58,13 @@ function Hero(props) {
               target="_blank"
               href="https://spotify.com/us"
             >
-              Spotify.
+              Spotify.{" "}
             </a>
+            I work on recommendations for Spotify Home.
           </p>
           <p className="mt-4">
             I am currently working on building large scale distributed data
-            systems. In the past I have co-founded a SAAS startup that provided
+            systems. In the past I co-founded a SAAS startup that provided
             analytical tooling for educational institutions.
           </p>
           <p className="mt-4">

@@ -24,7 +24,7 @@ function Home(props) {
               className={` ${
                 showPage === "highlights"
                   ? "bg-teal-400 text-white border-transparent focus:outline-none"
-                  : " hover:bg-teal-400 text-blue-700 hover:text-white bg-transparent hover:border-transparent focus:outline-none border-blue-500"
+                  : "hover:bg-teal-400 text-blue-700 hover:text-white bg-transparent hover:border-transparent focus:outline-none border-blue-500"
               }   font-semibold  py-1 px-4 border rounded-full`}
             >
               Highlights
