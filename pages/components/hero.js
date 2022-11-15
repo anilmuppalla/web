@@ -8,7 +8,7 @@ function Hero(props) {
               Anil Muppalla
             </div>
             <div className="font-mono text-2xl text-gray-600 text-center md:text-left">
-              Software Engineer in New York
+              Engineering Manager in New York
             </div>
           </div>
           <div className="flex justify-center">
@@ -51,7 +51,7 @@ function Hero(props) {
       <div className="mt-6">
         <div className="text-lg">
           <p>
-            Hello there 👋 ! My name is Anil and I am a Senior Engineer at{" "}
+            Hello there 👋 ! My name is Anil and I am an Engineering Manager at{" "}
             <a
               className="text-green-600 font-bold no-underline hover:underline"
               rel="noopener"
@@ -60,16 +60,11 @@ function Hero(props) {
             >
               Spotify.{" "}
             </a>
-            I work on recommendations for Spotify Home.
+            I work on ML infrastructure for recommender systems.
           </p>
           <p className="mt-4">
-            I am currently working on building large scale distributed data
-            systems. In the past I co-founded a SAAS startup that provided
+            In the past I co-founded a SAAS startup that provided
             analytical tooling for educational institutions.
-          </p>
-          <p className="mt-4">
-            I am also very fond of web and mobile technologies and I tend to
-            spend a significant portion of my free time exploring them.
           </p>
           <p className="mt-4">
             if you want to chat drop me a message{" "}
