@@ -50,7 +50,7 @@ function Hero(props) {
       </div>
       <div className="mt-6">
         <div className="text-lg">
-          <p>
+          <div>
             Hello there 👋 ! My name is Anil and I am an Engineering Manager at{" "}
             <a
               className="text-green-600 font-bold no-underline hover:underline"
@@ -61,15 +61,14 @@ function Hero(props) {
               Spotify.{" "}
             </a>
             <p className="mt-4">
-              Imagine having a personal genie that knows exactly what you want, even before you ask for it! Well, that's what I'm working on every day building Machine Learning infrastructure for recommender systems at Spotify.
+              As an Engineering Manager, I work on building Machine Learning infrastructure that powers our recommender systems, which helps millions of people discover their new favorite songs every day.
             </p>
-          </p>
+          </div>
           <p className="mt-4">
-            In the past I helped create a SAAS company that provided powerful analytical tools to schools, helping educators make data-driven decisions and students achieve their goals.
-
+            In the past, I had the privilege of being part of a team that co-founded a SAAS company that provided analytical tools to educational institutions, aiming to make a positive impact in the field of education.
           </p>
           <div className="mt-4 flex flex-col justify-center">
-            <p>On my blog, I dive into the exciting realm of Large-Scale distributed processing systems, uncovering new insights and discoveries along the way. If you want to join me on this adventure, hit that subscribe button and let's explore together!</p>
+            <p>On my blog, I share my passion for Large-Scale distributed processing systems, and offer insights and discoveries that I hope will inspire and benefit others in the tech community. I'd be honored if you join me on this journey, so hit that subscribe button and let's explore together!</p>
             <iframe src="https://techblocks.substack.com/embed" />
           </div>
         </div>
