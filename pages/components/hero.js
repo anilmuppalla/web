@@ -4,10 +4,10 @@ function Hero(props) {
       <div>
         <div className="md:flex md:justify-between md:items-center">
           <div>
-            <div className="my-2 text-5xl text-gray-800 text-center md:text-left">
+            <div className="text-5xl text-gray-800 text-center md:text-left">
               Anil Muppalla
             </div>
-            <div className="my-2 text-2xl text-gray-600 text-center md:text-left">
+            <div className="text-2xl text-gray-600 text-center md:text-left">
               Software Engineering Manager
             </div>
           </div>
@@ -68,10 +68,8 @@ function Hero(props) {
             In the past, I had the privilege of being part of a team that co-founded a SAAS company that provided analytical tools to educational institutions, aiming to make a positive impact in the field of education.
           </p>
           <p className="mt-4">On my blog, I share my passion for Large-Scale distributed processing systems, and offer insights and discoveries that I hope will inspire and benefit others in the tech community. I'd be honored if you join me on this journey, so hit that subscribe button and let's explore together!</p>
-          <div className="flex flex-col items-center w-full py-4">
-            <a href="https://techblocks.substack.com/" target="_blank">
-              <img src="https://substackcdn.com/image/fetch/w_170,c_limit,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5841c58b-5fed-4a3e-81e8-a0ff7dfd8bc3_1080x1080.png" alt="Logo" className="rounded-lg" />
-            </a>
+          <div className="flex flex-col items-center justify-center py-4">
+            <iframe src="https://techblocks.substack.com/embed" className="w-full h-72" />
           </div>
         </div>
       </div>
