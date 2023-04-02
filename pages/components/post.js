@@ -10,7 +10,7 @@ function Post({ title, imageUrl, imageAlt, outLink, tag, date,
       >
         <img className="object-contain" src={imageUrl} alt={imageAlt} />
         <div className="border-gray-100 p-2">
-          <div className="flex justify-between">
+          <div className="flex flex-col justify-between my-2">
             <div className="font-bold text-gray-800 text-l md:text-xl">
               {title}
             </div>

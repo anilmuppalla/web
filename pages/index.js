@@ -7,12 +7,7 @@ function Home() {
     <div className="flex">
       <div className="p-8 mx-auto max-w-screen-md items-center">
         <Hero />
-        <div className="mt-4">
-          <p className="text-lg my-4">
-            Here are some highlights of my work
-          </p>
-          <Highlights />
-        </div>
+        <Highlights />
       </div>
     </div >
   );

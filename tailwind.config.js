@@ -26,6 +26,9 @@ module.exports = {
         112: "28rem",
       },
     },
+    fontFamily: {
+      sans: ['Open Sans', 'sans-serif']
+    }
   },
   plugins: [],
 }
