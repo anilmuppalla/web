@@ -4,17 +4,17 @@ function Hero(props) {
       <div>
         <div className="md:flex md:justify-between md:items-center">
           <div>
-            <div className="font-mono text-5xl text-gray-800 text-center md:text-left">
+            <div className="text-5xl text-gray-800 text-center md:text-left">
               Anil Muppalla
             </div>
-            <div className="font-mono text-2xl text-gray-600 text-center md:text-left">
-              Engineering Manager in New York
+            <div className="text-2xl text-gray-600 text-center md:text-left">
+              Engineering Manager
             </div>
           </div>
           <div className="flex justify-center">
             <img
-              className="w-56 h-56 rounded-full object-cover object-right-bottom"
-              src="/img/anil.jpg"
+              className="w-48 h-48 rounded-full object-cover object-right-bottom"
+              src="/img/anil.jpeg"
               alt="anil muppalla"
             />
           </div>
@@ -60,26 +60,21 @@ function Hero(props) {
             >
               Spotify.{" "}
             </a>
-            I work on ML infrastructure for recommender systems.
+            <p className="mt-4">
+              Imagine having a personal genie that knows exactly what you want, even before you ask for it! Well, that's what I'm working on every day building Machine Learning infrastructure for recommender systems at Spotify.
+            </p>
           </p>
           <p className="mt-4">
-            In the past I co-founded a SAAS startup that provided
-            analytical tooling for educational institutions.
+            In the past I helped create a SAAS company that provided powerful analytical tools to schools, helping educators make data-driven decisions and students achieve their goals.
+
           </p>
-          <p className="mt-4">
-            if you want to chat drop me a message{" "}
-            <a
-              className="text-blue-600 text-lg"
-              target="_blank"
-              rel="noopener"
-              href="https://twitter.com/anilmuppallar"
-            >
-              @anilmuppallar
-            </a>
-          </p>
+          <div className="mt-4 flex flex-col justify-center">
+            <p>On my blog, I dive into the exciting realm of Large-Scale distributed processing systems, uncovering new insights and discoveries along the way. If you want to join me on this adventure, hit that subscribe button and let's explore together!</p>
+            <iframe src="https://techblocks.substack.com/embed" />
+          </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 
