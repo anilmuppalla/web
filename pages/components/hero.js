@@ -11,10 +11,10 @@ function Hero(props) {
             />
           </div>
 
-          <div className="text-5xl text-gray-800 text-center md:text-left">
+          <div className="text-5xl text-blue-600 font-bold text-center md:text-left">
             Anil Muppalla
           </div>
-          <div className="text-2xl text-gray-600 text-center md:text-left">
+          <div className="text-2xl text-blue-600 text-center md:text-left">
             Software Engineering Manager
           </div>
           <div>

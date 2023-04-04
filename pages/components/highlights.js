@@ -36,7 +36,7 @@ function Highlights(props) {
   ];
   return (
     <div className="mt-4">
-      <p className="text-xl my-4 font-bold text-blue-700">
+      <p className="text-xl my-4 font-bold text-blue-600">
         Highlights
       </p>
       <div className="mb-4 flex flex-col gap-4">
