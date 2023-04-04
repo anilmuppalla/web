@@ -2,49 +2,48 @@ function Hero(props) {
   return (
     <div>
       <div>
-        <div className="md:flex md:justify-between md:items-center">
-          <div>
-            <div className="text-5xl text-gray-800 text-center md:text-left">
-              Anil Muppalla
-            </div>
-            <div className="text-2xl text-gray-600 text-center md:text-left">
-              Software Engineering Manager
-            </div>
-          </div>
+        <div className="flex flex-col md:items-center justify-center gap-4">
           <div className="flex justify-center">
             <img
-              className="w-48 h-48 rounded-full object-cover object-right-bottom"
+              className="w-48 h-48 rounded-full object-cover object-right-bottom border border-blue-400"
               src="/img/anil.jpeg"
               alt="anil muppalla"
             />
           </div>
-        </div>
-        <div>
-          <div className="mt-2 space-x-4 flex justify-center md:justify-start">
-            <a
-              className="underline text-blue-600 text-lg"
-              target="_blank"
-              rel="noopener"
-              href="https://twitter.com/anilmuppallar"
-            >
-              twitter
-            </a>
-            <a
-              className="underline text-purple-600 text-lg"
-              target="_blank"
-              rel="noopener"
-              href="https://www.linkedin.com/in/anilmuppalla/"
-            >
-              linkedin
-            </a>
-            <a
-              className="underline text-red-600 text-lg"
-              target="_blank"
-              rel="noopener"
-              href="https://github.com/anilmuppalla"
-            >
-              github
-            </a>
+
+          <div className="text-5xl text-gray-800 text-center md:text-left">
+            Anil Muppalla
+          </div>
+          <div className="text-2xl text-gray-600 text-center md:text-left">
+            Software Engineering Manager
+          </div>
+          <div>
+            <div className="mt-2 space-x-4 flex justify-center md:justify-start">
+              <a
+                className="underline text-blue-600 text-lg"
+                target="_blank"
+                rel="noopener"
+                href="https://twitter.com/anilmuppallar"
+              >
+                twitter
+              </a>
+              <a
+                className="underline text-purple-600 text-lg"
+                target="_blank"
+                rel="noopener"
+                href="https://www.linkedin.com/in/anilmuppalla/"
+              >
+                linkedin
+              </a>
+              <a
+                className="underline text-red-600 text-lg"
+                target="_blank"
+                rel="noopener"
+                href="https://github.com/anilmuppalla"
+              >
+                github
+              </a>
+            </div>
           </div>
         </div>
       </div>
