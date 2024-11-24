@@ -15,12 +15,12 @@ function Hero(props) {
             Anil Muppalla
           </div>
           <div className="text-2xl text-center text-blue-600 md:text-left">
-            Software Engineering Manager
+            Machine Learning infrastructure Manager
           </div>
           <div>
             <div className="flex justify-center mt-2 space-x-4 md:justify-start">
             <a
-                className="text-lg text-blue-600 underline"
+                className="text-lg text-teal-600 underline"
                 target="_blank"
                 rel="noopener"
                 href="https://bsky.app/profile/anilmuppalla.bsky.social"
@@ -58,7 +58,7 @@ function Hero(props) {
       <div className="mt-6">
         <div className="text-lg">
           <div>
-            Hello there 👋 ! My name is Anil and I am a Software Engineering Manager at{" "}
+            Hello there 👋 ! My name is Anil and I am a ML Infra Manager at{" "}
             <a
               className="font-bold text-green-600 no-underline hover:underline"
               rel="noopener"
