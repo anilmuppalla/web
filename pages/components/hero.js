@@ -2,25 +2,33 @@ function Hero(props) {
   return (
     <div>
       <div>
-        <div className="flex flex-col md:items-center justify-center gap-4">
+        <div className="flex flex-col justify-center gap-4 md:items-center">
           <div className="flex justify-center">
             <img
-              className="w-48 h-48 rounded-full object-cover object-right-bottom border border-blue-400"
+              className="object-cover object-right-bottom w-48 h-48 border border-blue-400 rounded-full"
               src="/img/anil.jpeg"
               alt="anil muppalla"
             />
           </div>
 
-          <div className="text-5xl text-blue-600 font-bold text-center md:text-left">
+          <div className="text-5xl font-bold text-center text-blue-600 md:text-left">
             Anil Muppalla
           </div>
-          <div className="text-2xl text-blue-600 text-center md:text-left">
+          <div className="text-2xl text-center text-blue-600 md:text-left">
             Software Engineering Manager
           </div>
           <div>
-            <div className="mt-2 space-x-4 flex justify-center md:justify-start">
+            <div className="flex justify-center mt-2 space-x-4 md:justify-start">
+            <a
+                className="text-lg text-blue-600 underline"
+                target="_blank"
+                rel="noopener"
+                href="https://bsky.app/profile/anilmuppalla.bsky.social"
+              >
+                bluesky
+              </a>
               <a
-                className="underline text-blue-600 text-lg"
+                className="text-lg text-blue-600 underline"
                 target="_blank"
                 rel="noopener"
                 href="https://twitter.com/anilmuppallar"
@@ -28,7 +36,7 @@ function Hero(props) {
                 twitter
               </a>
               <a
-                className="underline text-purple-600 text-lg"
+                className="text-lg text-purple-600 underline"
                 target="_blank"
                 rel="noopener"
                 href="https://www.linkedin.com/in/anilmuppalla/"
@@ -36,7 +44,7 @@ function Hero(props) {
                 linkedin
               </a>
               <a
-                className="underline text-red-600 text-lg"
+                className="text-lg text-red-600 underline"
                 target="_blank"
                 rel="noopener"
                 href="https://github.com/anilmuppalla"
@@ -52,7 +60,7 @@ function Hero(props) {
           <div>
             Hello there 👋 ! My name is Anil and I am a Software Engineering Manager at{" "}
             <a
-              className="text-green-600 font-bold no-underline hover:underline"
+              className="font-bold text-green-600 no-underline hover:underline"
               rel="noopener"
               target="_blank"
               href="https://spotify.com/us"
